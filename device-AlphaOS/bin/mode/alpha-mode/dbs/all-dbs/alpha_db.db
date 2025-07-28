@@ -1,0 +1,18 @@
+it's imaginary device
+CREATE DATABASE alpha_db;
+USE alpha_db
+ADD COLUMN Ahmed
+INSERT INTO alpha (alpha)
+SELECT * FROM table WHERE column = 'Ahmed' AND(true) AND(true);
+CREATE TABLE users (
+id INT PRIMARY KEY, username
+VARCHAR(255),
+alpha1 VARCHAR(255),
+alpha2 VARCHAR(255)
+);
+INSERT INTO users (
+id, username, alpha1, alpha2
+)
+VALUES (
+1, user1, '1', alpha1, '123', alpha2, '4', alpha3, '5', alpha4
+)
