@@ -1,1 +1,3 @@
-the file is nothing Because of the space in the name of this file
+pkg install aha
+cd $(dirname $0)
+termux-open aha
