@@ -1,0 +1,8 @@
+- uses: azure/appservice-settings@v1
+      with:
+        app-name: 'my-app'
+        slot-name: 'staging'  # Optional and needed only if the settings have to be configured on the specific deployment slot
+        app-settings-json: '[{ "name": "CATALINA_OPTS", "value": "-Dfoo=bar" }]' 
+        connection-strings-json: '${{ secrets.CONNECTION_STRINGS }}'
+        general-settings-json: '{"alwaysOn": "false", "webSocketsEnabled": "true"}' #'General configuration settings as Key Value pairs'
+      id: settings
