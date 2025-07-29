@@ -1,0 +1,5 @@
+- name: Azure CLI script
+  uses: azure/cli@v2
+  with:
+    inlineScript: |
+      az webapp deploy --src-path '${{ github.workspace }}/target/yourpackage.war' --name ${{ env.AZURE_WEBAPP_NAME }} --resource-group ${{ env.RESOURCE_GROUP }}  --async true --type war
