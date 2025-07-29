@@ -1,0 +1,5 @@
+- name: Azure CLI script file
+      uses: azure/cli@v2
+      with:
+        inlineScript: |
+          mvn package azure-webapp:deploy
