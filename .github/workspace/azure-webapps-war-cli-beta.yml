@@ -1,0 +1,5 @@
+- name: Deploy startup script
+  uses: azure/cli@v2
+  with:
+    inlineScript: |
+      az webapp deploy --src-path ${{ github.workspace }}/src/main/azure/createPasswordlessDataSource.sh --name ${{ env.AZURE_WEBAPP_NAME }} --resource-group ${{ env.RESOURCE_GROUP }} --type startup --track-status false
