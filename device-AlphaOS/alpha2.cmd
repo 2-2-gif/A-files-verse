@@ -1,0 +1,1 @@
+echo alpha >> C:\Users\mm\alpha.txt
