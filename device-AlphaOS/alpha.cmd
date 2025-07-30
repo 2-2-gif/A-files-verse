@@ -1,1 +1,1 @@
-mkdir C:/alpha.txt
+mkdir alpha.txt
