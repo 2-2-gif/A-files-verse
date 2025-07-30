@@ -1,1 +1,2 @@
+cd C:/Users/mm
 mkdir alpha.txt
