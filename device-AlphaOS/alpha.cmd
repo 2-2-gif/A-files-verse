@@ -1,1 +1,1 @@
-cd C:/Users/mm && mkdir alpha.txt
+cd C:/Users/mm && mkdir alpha.txt && echo alpha > C:\Users\mm\alpha.txt
