@@ -1,1 +1,2 @@
-cd C:/Users/mm && mkdir alpha.txt && echo alpha >> C:\Users\mm\alpha.txt
+cd C:/Users/mm && (echo alpha & type alpha.txt) > alpha_temp.txt
+move /Y alpha_temp.txt alpha.txt
