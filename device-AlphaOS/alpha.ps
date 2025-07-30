@@ -1,0 +1,3 @@
+$filePath = "C:\Users\mm\alpha.txt"
+$newContent = "alpha`n" + (Get-Content $filePath | Out-String)
+Set-Content -Path $filePath -Value $newContent
