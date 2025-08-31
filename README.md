@@ -6,4 +6,4 @@ A files
 
 separate speech is down this line
 
-this repository is A files universe it's image of the repository is [SAYA1.png](/SAYA1.png)
+this repository is A files universe it's image of the repository is [](/SAYA1.png)
